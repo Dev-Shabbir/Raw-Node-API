@@ -1,0 +1,11 @@
+{
+  "main": "App.js",
+  "scripts": {
+    "start": "NODE_ENV=staging nodemon App",
+    "production": "NODE_ENV=production nodemon App",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
